@@ -31,6 +31,8 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 
 Vous êtes propriétaire du document importé. Rien n'est installé ailleurs : les widgets sont des pages web publiques, qui lisent et écrivent dans votre document avec les droits de la personne connectée.
 
+Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évolution d'un widget ne modifie pas votre espace sans que vous l'ayez décidé.
+
 ## Le régler
 
 - **Questions** : page *Concevoir le questionnaire*. Une nouvelle question crée sa colonne dans `Reponses`.
@@ -45,6 +47,8 @@ Les réglages sont enregistrés dans le document. Les widgets partagent aussi le
 
 Le lien public du questionnaire permet seulement **d'ajouter** une réponse : il ne donne accès ni aux réponses, ni aux autres tables. Les réponses et la liste des destinataires ne sont visibles que des personnes invitées dans le document.
 
+Les tables `Personnes` et `Structures`, quand l'espace en contient, suivent la règle commune des widgets : un widget de la famille ajouté plus tard les reprend et les complète, au lieu d'en créer d'autres.
+
 Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est entièrement fictif.
 
 ## Widgets utilisés
@@ -57,6 +61,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [espace-pilotage](https://github.com/lab17bis/espace-pilotage) : regarder et décider : un écran d'équipe qui rassemble indicateurs, réunions, projets et management visuel.
 - [espace-collaboratif](https://github.com/lab17bis/espace-collaboratif) : faire ensemble : réunions, projets partagés et ressources communes d'une équipe.
 - [espace-accompagnement](https://github.com/lab17bis/espace-accompagnement) : suivre les personnes qui sollicitent un service : offre de service, sollicitations, fiches contact et satisfaction.
+- [espace-reseau](https://github.com/lab17bis/espace-reseau) : animer un réseau ou une communauté de pratique : membres, groupes, rencontres, présences, ressources partagées et retours.
 
 ## Écosystème
 
